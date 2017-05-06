@@ -1,6 +1,6 @@
 {
-  "name": "nemmo/yii2-attachments",
-  "description": "Extension for file uploading and attaching to the models",
+  "name": "daveferger/yii2-attachments",
+  "description": "Extension for file uploading and attaching to the models, use kartik-v/yii2-widget-fileinput",
   "type": "yii2-extension",
   "keywords": [
     "yii2",
@@ -10,12 +10,12 @@
     "upload"
   ],
   "license": "BSD-4-Clause",
-  "homepage": "https://github.com/Nemmo/yii2-attachments",
+  "homepage": "https://github.com/DaveFerger/yii2-attachments",
   "authors": [
     {
-      "name": "Alimzhan Abuov aka Nemmo",
-      "email": "alimzhan.abu@yandex.kz",
-      "homepage": "http://alimzhan.kz",
+      "name": "DaveFerger",
+      "email": "david@forberger.hu",
+      "homepage": "http://www.forberger.hu",
       "role": "Developer"
     }
   ],
@@ -31,7 +31,7 @@
   },
   "autoload": {
     "psr-4": {
-      "nemmo\\attachments\\": "src"
+      "daveferger\\attachments\\": "src"
     }
   },
   "extra": {
