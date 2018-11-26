@@ -48,8 +48,9 @@ class File extends ActiveRecord
     {
         return [
             [['name', 'model', 'itemId', 'hash', 'size', 'type', 'mime'], 'required'],
-            [['itemId', 'size'], 'integer'],
+            [['size'], 'integer'],
             [['name', 'model', 'hash', 'type', 'mime'], 'string', 'max' => 255]
+            [['itemId'], 'string', 'max' => 12]
         ];
     }
 
